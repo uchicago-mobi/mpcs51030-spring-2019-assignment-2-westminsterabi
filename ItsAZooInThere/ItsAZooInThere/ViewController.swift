@@ -53,6 +53,7 @@ class ViewController: UIViewController {
     
     // MARK: button tap handler
     // got help here: https://learnappmaking.com/target-action-swift/
+    
     @objc func buttonTapped(_ button: UIButton) {
         let fuzzButt: Animal = animals[button.tag]
         let alertCont = UIAlertController(
